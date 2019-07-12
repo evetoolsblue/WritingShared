@@ -1,0 +1,11 @@
+G:\EveAlerts\WritingShared\obj\Debug\netcoreapp2.2\WritingShared.csprojAssemblyReference.cache
+G:\EveAlerts\WritingShared\obj\Debug\netcoreapp2.2\WritingShared.csproj.CoreCompileInputs.cache
+G:\EveAlerts\WritingShared\obj\Debug\netcoreapp2.2\WritingShared.AssemblyInfoInputs.cache
+G:\EveAlerts\WritingShared\obj\Debug\netcoreapp2.2\WritingShared.AssemblyInfo.cs
+G:\EveAlerts\WritingShared\bin\Debug\netcoreapp2.2\WritingShared.deps.json
+G:\EveAlerts\WritingShared\bin\Debug\netcoreapp2.2\WritingShared.runtimeconfig.json
+G:\EveAlerts\WritingShared\bin\Debug\netcoreapp2.2\WritingShared.runtimeconfig.dev.json
+G:\EveAlerts\WritingShared\bin\Debug\netcoreapp2.2\WritingShared.dll
+G:\EveAlerts\WritingShared\bin\Debug\netcoreapp2.2\WritingShared.pdb
+G:\EveAlerts\WritingShared\obj\Debug\netcoreapp2.2\WritingShared.dll
+G:\EveAlerts\WritingShared\obj\Debug\netcoreapp2.2\WritingShared.pdb
