@@ -17,6 +17,8 @@ namespace WritingShared
         public static long ReadAllBytes;
         public static FileStream fsw;
         public static bool tog;
+        public static FileStream openReader;
+        public static long openReaderBytes;
         public static void setup()
         {
             string root = Directory.GetParent(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData)).FullName;
@@ -50,11 +52,15 @@ namespace WritingShared
 
         public static void ReadAllFile()
         {
-            
+            if(openReader == null)
+            {
+               openReader = new FileStream(file, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
+            }
             using (var fs = new FileStream(file, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
             { 
                 ReadAllBytes = fs.Length;
             }
+            openReaderBytes = openReader.Length;
                 
         }
         public static void WriteSomeBytes()
@@ -93,11 +99,11 @@ namespace WritingShared
 
                 if (!stop)
                 {
-                    Thread.Sleep(500);
+                    Thread.Sleep(100);
                     WriteSomeBytes();
                     readFileInfo();
                     ReadAllFile();
-                    Console.WriteLine($"readAllFile bytes: {ReadAllBytes} vs FileInfoBytes {InfoBytes} flushed: {tog}");
+                    Console.WriteLine($"readAllFile bytes: FileInfoBytes {InfoBytes} -- using: {ReadAllBytes}  OpenReader {openReaderBytes} flushed: {tog}");
                    
 
                 }

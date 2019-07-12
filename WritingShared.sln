@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritingShared", "WritingShared.csproj", "{A793860C-EB5B-4904-80A1-2B38DC4D97D2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EveIntelReader", "..\EveIntelReader\EveIntelReader.csproj", "{3A3F7A15-3C01-4303-B80A-872CCB325A46}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
