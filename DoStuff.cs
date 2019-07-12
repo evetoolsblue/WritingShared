@@ -97,10 +97,8 @@ namespace WritingShared
                     WriteSomeBytes();
                     readFileInfo();
                     ReadAllFile();
-                    if(ReadAllBytes != InfoBytes)
-                    {
-                        Console.WriteLine($"readAllFile bytes: {ReadAllBytes} vs FileInfoBytes {InfoBytes}");
-                    }
+                    Console.WriteLine($"readAllFile bytes: {ReadAllBytes} vs FileInfoBytes {InfoBytes} flushed: {tog}");
+                   
 
                 }
                }
